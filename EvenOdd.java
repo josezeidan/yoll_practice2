@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class EvenOdd {
 
 	public static void main(String[] args) {
-		 TODO Auto-generated method stub
+		
 
 		
 		System.out.println("Please enter an Integer");
@@ -15,9 +15,9 @@ public class EvenOdd {
 		int num = scanner.nextInt();
 
 		if(num%2 == 0) 
-			System.out.println(num + "is Even");
+			System.out.println(num + " is Even");
 		else
-			System.out.println(num + "is Odd");
+			System.out.println(num + " is Odd");
 		
 
 		scanner.close();
