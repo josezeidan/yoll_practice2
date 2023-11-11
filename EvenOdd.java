@@ -14,7 +14,7 @@ public class EvenOdd {
 		
 		int num = scanner.nextInt();
 		
-		System.out.println(evenodd(23));
+		System.out.println(evenodd(num));
 		
 		
 	}
