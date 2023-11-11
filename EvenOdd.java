@@ -13,20 +13,17 @@ public class EvenOdd {
 		Scanner scanner = new Scanner(System.in);
 		
 		int num = scanner.nextInt();
+
+		if(num%2 == 0) 
+			System.out.println(num + "is Even");
+		else
+			System.out.println(num + "is Odd");
 		
-		System.out.println(evenodd(num));
+
+		scanner.close();
 		
 		
 	}
 	
-	public static String evenodd(int num) {
-		
-		
-		if(num%2 == 0) 
-			return num+" is Even";
-		else
-			return num+" is Odd";
-		
-	}
 
 }
