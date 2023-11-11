@@ -5,14 +5,14 @@ import java.util.Scanner;
 public class EvenOdd {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		 TODO Auto-generated method stub
 
 		
 		System.out.println("Please enter an Integer");
 		
-		//Scanner scanner = new Scanner(System.in);
+		Scanner scanner = new Scanner(System.in);
 		
-		//int num = scanner.nextInt();
+		int num = scanner.nextInt();
 		
 		System.out.println(evenodd(23));
 		
