@@ -31,5 +31,4 @@ jobs:
 
      - name: Build and run Java application
        run: |
-        javac EvenOdd.java
         java EvenOdd.java ${{ steps.convert_input.outputs.num }}
