@@ -1,6 +1,13 @@
 name: Java CI
 
 on:
+  workflow_dispatch:
+    inputs:
+      num:
+        description: 'integer number'
+        default: 'number'
+        required: true
+        type: integer
   push:
     branches:
       - main
@@ -22,5 +29,5 @@ jobs:
     - name: Build and run Java application
       run: |
         javac EvenOdd.java
-        java EvenOdd.java ${{ github.event_name }}
+        java EvenOdd.java ${{ github.num }}
 
