@@ -12,7 +12,7 @@ public class EvenOdd {
 		
 		Scanner scanner = new Scanner(System.in);
 		
-		int num = scanner.nextInt();
+		int num =  Integer.parseInt(args[0]);
 
 		if(num%2 == 0) 
 			System.out.println(num + " is Even");
